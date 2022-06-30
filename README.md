@@ -9,14 +9,19 @@ Backend routes + endpoints for various HTTP methods Controllers, Middleware, Err
 
 Clone this repository or simply download all files.
 git clone https://github.com/BerliaNeha/fullstack-user-data-app.git
+Create two folders: backend and frontend
 
 1. Install dependencies in root (server) and in client as well
 
-npm init
+cd backend:
+npm init -y
 npm install express
-npm i nodemon
+Check for nodemon in your system if not found then npm install nodemon
 
-2. Add "type":"module" to the package.json
+cd frontend:
+npx create-react-app .
+
+2. Add "type":"module" to the backend package.json
 
 3. Create a .env file in root
 
@@ -28,8 +33,8 @@ SECRET_OR_KEY=
 
 5. Now to run app, run this script
 
-cd frontend
-nodemon index
+cd backend and run nodemon index
+If database established cd frontend and run npm start
 
 
 Also this project is open to everyone. If you have some ideas or features you can develop or even can modify the existing ones in a better way, just create a pull request and you can become a contributor.
