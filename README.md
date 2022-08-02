@@ -1,5 +1,5 @@
 # fullstack-user-data-app
- It is an ongoing project. I will soon add the styling and some other features such as multipart requests!
+An ongoing project...Some other features such as multipart requests yet to be added.
 Multipart requests let you send data of multiple types in a single request (e.g. a JSON object + an image file)!
 
 # Tech Stack
